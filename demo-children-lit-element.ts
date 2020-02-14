@@ -1,14 +1,7 @@
-import {
-  html,
-  LitElement,
-  TemplateResult,
-} from 'lit-element'
+import { LitElement } from 'lit-element'
 
 export class DemoChildren extends LitElement {
-
-  render (): TemplateResult {
-    return html`
-      ${this.children}
-    `
+  getChildren() {
+    return this.children
   }
 }

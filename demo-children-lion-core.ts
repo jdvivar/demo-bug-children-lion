@@ -1,14 +1,7 @@
-import {
-  html,
-  LitElement,
-  TemplateResult,
-} from '@lion/core'
+import { LitElement } from '@lion/core'
 
 export class DemoChildren extends LitElement {
-
-  render (): TemplateResult {
-    return html`
-      ${this.children}
-    `
+  getChildren() {
+    return this.children
   }
 }
