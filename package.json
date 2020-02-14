@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@lion/core": "^0.4.3",
-    "typescript": "^3.7.5"
+    "typescript": "next"
   }
 }
