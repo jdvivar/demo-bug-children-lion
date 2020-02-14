@@ -1,4 +1,4 @@
-import { LitElement } from '@lion/core'
+import { LitElement } from 'extended-lit-element'
 
 export class DemoChildren extends LitElement {
   getChildren() {
