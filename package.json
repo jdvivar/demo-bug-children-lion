@@ -1,0 +1,16 @@
+{
+  "name": "demo-bug-childen-ing-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lion/core": "^0.4.3",
+    "typescript": "^3.7.5"
+  }
+}
