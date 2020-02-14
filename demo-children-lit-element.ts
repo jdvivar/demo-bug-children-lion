@@ -8,7 +8,7 @@ export class DemoChildren extends LitElement {
 
   render (): TemplateResult {
     return html`
-        ${[...this.children]}
+      ${this.children}
     `
   }
 }
