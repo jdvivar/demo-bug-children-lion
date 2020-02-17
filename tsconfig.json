@@ -5,6 +5,7 @@
     "experimentalDecorators": true,
     "declaration": true,
     "module": "esnext",
-    "allowJs": true
+    "allowJs": true,
+    "lib": "esnext"
   }
 }
